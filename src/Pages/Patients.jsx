@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import PatientCard from "../Components/PatientCard";
-import PatientModal from "../Components/patientModal";
+import PatientCard from "../Components/patientCard";
+import PatientModal from "../Components/PatientModal";
 import AddPatientForm from "../Components/AddPatientForm";
 
 export default function Patients() {

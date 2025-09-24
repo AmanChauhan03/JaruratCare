@@ -1,4 +1,4 @@
-export default function PatientCard({ patient, onView }) {
+export default function patientCard({ patient, onView }) {
   return (
     <div className="bg-white p-4 shadow rounded-lg">
       <h2 className="text-lg font-bold">{patient.name}</h2>

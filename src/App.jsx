@@ -1,9 +1,9 @@
 import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Link,NavLink } from "react-router-dom";
-import Header from "./components/Header";
-import Home from "./pages/Home";
-import Patients from "./pages/Patients";
-import About from "./pages/About";
+import Header from "./Components/Header";
+import Home from "./Pages/Home";
+import Patients from "./Pages/Patients";
+import About from "./Pages/About";
 
 
 function App() {

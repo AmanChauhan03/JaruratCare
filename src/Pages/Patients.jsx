@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import PatientCard from "../components/PatientCard";
-import PatientModal from "../components/patientModal";
-import AddPatientForm from "../components/AddPatientForm";
+import PatientCard from "../Components/PatientCard";
+import PatientModal from "../Components/patientModal";
+import AddPatientForm from "../Components/AddPatientForm";
 
 export default function Patients() {
   const [patients, setPatients] = useState([]);
